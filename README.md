@@ -1,9 +1,9 @@
-RoboDraw
+# RoboDraw
 
 A fully automated pipeline that converts any image into hand-drawn style sketches using a custom-built CNC plotter powered by Arduino + GRBL + Servo control.
 
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 This project is a complete end-to-end drawing system that transforms digital images into physical sketches using a custom-built CNC machine.
 
@@ -25,12 +25,12 @@ The result is a system that produces organic, hand-drawn style outputs instead o
 
 
 
-🧩 System Architecture
+### 🧩 System Architecture
 
 Image (PNG/JPG) -> Image Processing Pipeline (Python) -> Stroke Generation (Contours + Hatching + Noise) -> SVG (virtual representation) -> G-code Generation -> GRBL Controller (Arduino) -> CNC Plotter + Servo Pen ->  Physical Drawing
 
 
-🛠️ Hardware Setup
+### 🛠️ Hardware Setup
 
 Arduino Uno
 
@@ -47,7 +47,12 @@ Custom 3D Printed Frame (A4 working area)
 Linear rods + LM8UU bearings
 
 
-💻 Software Stack
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/a7e9a26e-6d50-43dc-9ab1-eeb0875dc55d" />
+
+
+
+
+### 💻 Software Stack
 
 Python
  
@@ -59,10 +64,11 @@ svgpathtools (SVG parsing)
 
 GRBL (motion control firmware)
 
-Universal G-code Sender (UGS)
+Universal G-code Sender (UGS) 
 
 
-✨ Key Features
+
+### ✨ Key Features
 
 🎨 1. Hand-Drawn Style Rendering
 
@@ -110,7 +116,7 @@ image → strokes → SVG (in-memory) → G-code
 No need to manually run multiple files
 
 
-📂 Usage
+### 📂 Usage
 Basic:
 python pipeline.py input.png --gcode output.gcode
 
@@ -142,3 +148,7 @@ hatch_size - Controls shading density:
 32 → light shading
 
 📸 Example Outputs# Robo-Draw
+
+
+
+
