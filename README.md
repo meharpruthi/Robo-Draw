@@ -147,7 +147,7 @@ hatch_size - Controls shading density:
 
 32 → light shading
 
-📸 Example Outputs# Robo-Draw
+
 
 
 
